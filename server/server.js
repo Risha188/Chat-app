@@ -12,7 +12,7 @@ const server = http.createServer(app)
 
 //Initialize socket.io server
 export const io = new Server(server,{
-    cors: {origin: "*"}
+    cors: {origin: "https://chat-app-client-so2z.onrender.com"}
 })
 
 //Store online users
